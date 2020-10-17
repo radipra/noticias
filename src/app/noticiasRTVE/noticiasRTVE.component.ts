@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Noticia } from '../modelos/datosRtve';
+import { Noticia } from '../modelos/modeloDatosRtve';
 import { NoticiasRTVEService } from '../noticias-rtve.service';
 
 @Component({
   selector: 'app-noticias',
-  templateUrl: './noticias.component.html',
-  styleUrls: ['./noticias.component.less']
+  templateUrl: './noticiasRTVE.component.html',
+  styleUrls: ['./noticiasRTVE.component.less']
 })
 export class NoticiasComponent implements OnInit {
 

@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
-import { NoticiasComponent } from './noticias/noticias.component';
+import { NoticiasComponent } from './noticiasRTVE/noticiasRTVE.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
