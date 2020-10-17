@@ -11,7 +11,7 @@ export interface Page {
     totalPages:  number;
     numElements: number;
 }
-
+//por lo pronto puedo decir que a eclipse no le gusta typescript
 export interface Noticia {
     uri:                      string;
     htmlUrl:                  string;
