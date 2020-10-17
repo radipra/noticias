@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { NoticiasComponent } from './noticiasRTVE/noticiasRTVE.component';
 import { HttpClientModule } from '@angular/common/http';
+import { OtrasNoticiasComponent } from './otras-noticias/otras-noticias.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    OtrasNoticiasComponent
   ],
   imports: [
     BrowserModule,
