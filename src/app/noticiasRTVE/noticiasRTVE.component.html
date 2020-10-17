@@ -1,7 +1,7 @@
 <div class="fondoNoticias">
     <h2 class="p-2">Últimas noticias RTVE</h2>
 
-    <div class="container " >
+    <div class="container">
         <div class="row mt-3"  *ngFor="let noticia of noticias">
             <div class="col-12">
                 <h3 class="p-2">{{noticia.longTitle}}</h3>
@@ -11,10 +11,8 @@
             </div>
             <div class="col-lg-4">
                 <div [innerHTML]="noticia.summary"></div>
-
-                <a  href="{{noticia.htmlUrl}}" title="Ver {{noticia.longTitle}} en la web de RTVE">Ver esta noticia en la web de RTVE</a>
+                <a  href="{{noticia.htmlUrl}}" title="Ver '{{noticia.longTitle}}' en la web de RTVE">Ver esta noticia en la web de RTVE</a>
             </div>
-            
         </div>
     </div>
 </div>
