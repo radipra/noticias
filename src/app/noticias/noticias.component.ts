@@ -20,5 +20,5 @@ export class NoticiasComponent implements OnInit {
   getNoticias(): void {
     this.noticiasRTVEService.getNoticias().subscribe(resp => this.noticias = resp.page.items);
   }
-
+//prueba de comentario desde ide en web de gitub
 }
